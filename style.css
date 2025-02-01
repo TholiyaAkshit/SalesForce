@@ -1,0 +1,365 @@
+*{
+   margin : 0%;
+   padding : 0%;
+   box-sizing: border-box;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+   height: 100%;
+   width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    height: 13%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    justify-content: space-around;
+    background-color: darkgray;
+    z-index: 100;
+}
+#logo{
+    height: 70%;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text{
+    color: rgb(12, 12, 12);
+    font-weight: bolder;
+}
+
+.text:hover{
+    color: rgb(17, 4, 155); 
+}
+
+#contact{
+    margin: 50px;
+    font-weight: bold;
+    color: blue;
+}
+
+
+.icon{
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.icon:hover{
+    background-color: lightblue;
+}
+#login{
+    padding: 10px;
+    display: flex;
+    border-radius: 70px;
+}
+
+#login:hover{
+    background-color: lightblue;
+}
+
+
+#try{
+   background-color: rgb(3, 87, 142);
+   padding: 10px 20px;
+   border-radius: 5px;
+   color: white;
+   font-weight: bold;
+} 
+
+#fakeHeader{
+    height: 12%;
+    width: 100%; 
+}
+
+#page1{
+    height: 87%;
+    width: 100%;
+    background-color: rgb(250, 252, 253);
+}
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+}
+#strip u:hover{
+    color: lightblue ;
+}
+#content{
+    width: 100%;
+    height: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#box1{
+    height: 95%;
+    width: 46%;
+    margin-left: 50px;
+    
+}
+
+#box1 h1{
+    color: rgb(32, 0, 108);
+    font-size: 70px;
+    margin: 30px 10px;
+    font-weight: 500;
+}
+
+#box1 p{
+    font-size: x-large;
+    margin: 30px 10px;
+    font-weight: lighter;
+}
+
+#bt{
+    display: flex;
+    margin: 60px 10px;
+    align-items: center;
+}
+
+#bt1{
+    background-color: rgb(34, 100, 198);
+    color: white;
+    width: 20%;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#bt1:hover{
+    background-color: rgb(5, 43, 99);
+}
+
+#bt2{
+    margin-left: 20px;
+    background-color: white;
+    color:  rgb(34, 100, 198);
+    width: 20%;
+    padding: 10px 20px;
+    border: 1px solid  rgb(34, 100, 198);
+    border-radius: 5px;
+}
+
+#bt2:hover{
+    color:  rgb(3, 28, 66) ;
+    border-color: rgb(5, 32, 71);
+    background-color: lightblue;
+}
+
+
+#box2{
+    height: 95%;
+    width: 46%;
+    display: flex;
+}
+
+
+
+
+#video{
+    margin-top: 30px;
+    margin-left: 30px;
+   height: 75.6%;
+   width: 89%;
+   box-shadow: 0px 0px 12px 1px;
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+#tag{
+    width: 100%;
+    height: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkblue;
+    font-weight: 700;
+}
+
+#page2{
+    height: 87%;
+    width: 100%;
+    background-color:white;
+}
+
+#jakas{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#container1{
+    height: 65%;
+    width: 20%;
+    background-color: white;
+    border-radius: 20px;
+    text-shadow: 5px black;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px 2px  black;
+
+}
+
+#container1 img{
+    object-fit: cover;
+    height: 35%;
+    width: 100%;
+}
+
+#container1 h1{
+    margin: 20px;
+}
+
+#container1 h1:hover{
+    color: darkblue;
+}
+#container1 p{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: large;
+    font-weight: lighter;
+}
+
+#container1 u{
+    font-weight: bold;
+}
+#container1 u:hover{
+    color: darkblue;
+    text-decoration: none;
+}
+
+#container2{
+    height: 65%;
+    width: 20%;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px 2px  black;
+
+}
+
+#container2 h1{
+    margin: 20px;
+}
+#container2 h1:hover{
+    color: darkblue;
+}
+#container2 p{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: large;
+    font-weight: lighter;
+}
+#container2 u{
+    font-weight: bold;
+}
+    
+
+#container2 img{
+    object-fit: cover;
+    height: 35%;
+    width: 100%;
+}
+#container2 u:hover{
+    color: darkblue;
+    text-decoration: none;
+}
+#container3{
+    height: 65%;
+    width: 20%;
+    background-color: white;
+    border-radius: 20px;
+    text-shadow: 5px black;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px 2px  black;
+
+}
+
+#container3 h1{
+    margin: 20px;
+}
+#container3 h1:hover{
+    color: darkblue;
+}
+#container3 p{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: large;
+    font-weight: lighter;
+}
+#container3 u{
+    font-weight: bold;
+}
+#container3 img{
+    object-fit: cover;
+    height: 35%;
+    width: 100%;
+}
+#container3 u:hover{
+    color: darkblue;
+    text-decoration: none;
+}
+#container4{
+    height: 65%;
+    width: 20%;
+    background-color: white;
+    border-radius: 20px;
+    text-shadow: 5px black;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px 2px  black;
+
+}
+
+#container4 h1{
+    margin: 20px;
+}
+#container4 h1:hover{
+    color: darkblue;
+}
+#container4 p{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: large;
+    font-weight: lighter;
+}
+#container4 u{
+    font-weight: bold;
+}
+#container4 img{
+    object-fit: cover;
+    height: 35%;
+    width: 100%;
+}
+
+#container4 u:hover{
+    color: darkblue;
+    text-decoration: none;
+}
+
